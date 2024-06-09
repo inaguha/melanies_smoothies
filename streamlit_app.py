@@ -1,5 +1,7 @@
 from snowflake.snowpark.functions import col
 import streamlit as st
+import pandas as pd
+import numpy as np
 cnx=st.connection("snowflake")
 session=cnx.session()
 st.title(":cup_with_straw: Customize your Smoothie :cup_with_straw:")
